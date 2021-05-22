@@ -1,0 +1,30 @@
+# Git-Tutorial
+
+##  A) Git rewriting Files
+
+- Using git rebase 
+
+<p>
+1. git rebase -i HEAD~n (n stands for last n commits)<br>
+2. git rebase todo file is opened in code editor<br>
+3. use the followinfg commands<br>
+
+#### Commands:<br>
+p, pick <commit> = use commit<br>
+r, reword <commit> = use commit, but edit the commit message<br>
+e, edit <commit> = use commit, but stop for amending<br>
+s, squash <commit> = use commit, but meld into previous commit<br>
+f, fixup <commit> = like "squash", but discard this commit's log message<br>
+x, exec <command> = run command (the rest of the line) using shell<br>
+b, break = stop here (continue rebase later with 'git rebase --continue')<br>
+d, drop <commit> = remove commit<br>
+l, label <label> = label current HEAD with a name<br>
+t, reset <label> = reset HEAD to a label<br>
+m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]<br>
+.       create a merge commit using the original merge commit's<br>
+.       message (or the oneline, if no original merge commit was<br>
+.       specified). Use -c <commit> to reword the commit message.<br>
+<br>
+4. After doing required changes save and close it.<br>
+5. push the commit<br>
+</p>
