@@ -28,3 +28,20 @@ m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]<br>
 4. After doing required changes save and close it.<br>
 5. push the commit<br>
 </p>
+
+
+##  B) Changing remote origin
+#### this will fail because `origin` is not set / `origin` does not match
+- $git push origin master
+
+#### you need to use
+- $git push myOrigin master
+<br>
+
+#### If you want to rename the remote or change the remote's URL, you'll want to first remove the old remote, and then add the correct one.
+
+1. git remote -v<br>
+2. git remote add origin ssh://git@example.com:1234/myRepo.git
+3. git push origin master
+
+
