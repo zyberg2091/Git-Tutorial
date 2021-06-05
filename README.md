@@ -45,3 +45,8 @@ m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]<br>
 3. git push origin master
 
 
+## C) Undo Last n commits
+
+- $git reset --soft HEAD~n
+
+
