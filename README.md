@@ -35,8 +35,7 @@ m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]<br>
 - $git push origin master
 
 #### you need to use
-- $git push myOrigin master
-<br>
+- $git push myOrigin master<br>
 
 #### If you want to rename the remote or change the remote's URL, you'll want to first remove the old remote, and then add the correct one.
 
@@ -48,5 +47,10 @@ m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]<br>
 ## C) Undo Last n commits
 
 - $git reset --soft HEAD~n
+
+
+## D) Renaming files/directory
+
+- $git mv "oldfilename" "newfilename"
 
 
